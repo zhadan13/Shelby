@@ -1,0 +1,43 @@
+<div th:fragment="header" xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container">
+        <div class="blog-header py-3">
+            <nav class="container d-flex align-items-center flex-column flex-md-row justify-content-between">
+                <div class="col-4 pt-1"></div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo text-dark" href="/">
+                        <h3><b>
+                            <ins>Shelby</ins>
+                        </b></h3>
+                    </a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="p-2 text-dark" href="#" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                             stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3"
+                             viewBox="0 0 24 24"><title>Search</title>
+                            <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                            <path d="M21 21l-5.2-5.2"></path>
+                        </svg>
+                    </a>
+                    <a class="btn btn-sm btn-outline-secondary" href="/">Sign in</a>
+                </div>
+            </nav>
+        </div>
+        <div class="site-header sticky-top py-1">
+            <nav class="container d-flex align-items-center flex-column flex-md-row justify-content-between">
+                <a class="p-2 text-dark" href="/" aria-label="BlogBaster">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" stroke="currentColor"
+                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto"
+                         viewBox="0 0 25 25"><title>The Shelby</title>
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path>
+                    </svg>
+                </a>
+                <a class="p-2 text-dark" href="/">Home</a>
+                <a class="p-2 text-dark" href="/">Blog</a>
+                <a class="p-2 text-dark" href="/">Add article</a>
+                <a class="p-2 text-dark" href="/">About</a>
+            </nav>
+        </div>
+    </div>
+</div>
