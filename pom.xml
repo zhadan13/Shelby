@@ -21,7 +21,7 @@
         <mapstruct.version>1.4.2.Final</mapstruct.version>
 
         <!-- Sonar Cloud project -->
-        <sonar.organization>shelby</sonar.organization>
+        <sonar.organization>shelbys-restaurant</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
