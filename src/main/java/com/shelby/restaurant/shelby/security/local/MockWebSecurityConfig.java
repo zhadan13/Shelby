@@ -15,6 +15,8 @@ public class MockWebSecurityConfig {
         return http
                 .csrf()
                 .disable()
+                .cors()
+                .disable()
                 .authorizeExchange()
                 .pathMatchers("/**")
                 .permitAll()
