@@ -9,6 +9,6 @@ public class GatewayRouteHelper {
     @Value("${shelbys.restaurant.service.path}")
     private String SERVICE_URL;
 
-    public String REGISTRATION_ROUTE = SERVICE_URL + "/registration";
-    public String LOGIN_ROUTE = SERVICE_URL + "/login";
+    public final String REGISTRATION_ROUTE = SERVICE_URL + "/registration";
+    public final String LOGIN_ROUTE = SERVICE_URL + "/login";
 }
