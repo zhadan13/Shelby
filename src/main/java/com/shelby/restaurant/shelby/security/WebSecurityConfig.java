@@ -1,6 +1,6 @@
 package com.shelby.restaurant.shelby.security;
 
-import com.shelby.restaurant.shelby.dto.UserRole;
+import com.shelby.restaurant.shelby.dto.user.UserRole;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
